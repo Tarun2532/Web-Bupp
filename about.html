@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BUPP!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="1"> -->
+
+    <!-- google icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts Pacifico -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts Bree Serif -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <!-- navigation bar section -->
+    <section class="fnavbar">
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">BUPP</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li><a href="./" class="hvr-grow">Home</a></li>
+              <!-- modal windows will kick in -->
+              <li>
+                <a href="#" onclick="toggleModal();" class="hvr-grow"
+                  >Our Team</a
+                >
+              </li>
+              <li><a href="./content1.html">Map</a></li>
+              <li><a href="https://login4406.netlify.app">Login</a></li>
+              <li>
+                <a href="#" class="hvr-grow" onclick="toggleModal();"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+
+      <div class="bg-light py-5">
+    <div class="container py-5">
+      <div class="row mb-4">
+        <div class="col-lg-5">
+          <h2 class="display-4 font-weight-light">Our team</h2>
+        </div>
+      </div>
+  
+      <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/bb.png"  width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Tarun Chandra</h5><span class="small text-uppercase text-muted">Student</span><p class="title">
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="https://www.facebook.com/tarun.chandra.5" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/aa.png" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Ujjwal Shrivastav</h5><span class="small text-uppercase text-muted">Student</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/cc.png" width="115" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Amulya Uttarkar</h5><span class="small text-uppercase text-muted">Student</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="https://www.facebook.com/nikhil.pahurkar" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+       
+        <!-- End-->
+  
+      </div>
+    </div>
+  </div>
+      <!-- responsiveness for mobile devices -->
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="./">Home</a></li>
+        <li><a href="#" onclick="toggleModal();">About Us</a></li>
+        <li><a href="./content1.html">Map</a></li>
+        <li><a href="https://login4406.netlify.app">Login</a></li>
+        <li><a href="#" onclick="toggleModal();">Contact</a></li>
+      </ul>
+    </section>
+
+    </html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BUPP!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="1"> -->
+
+    <!-- google icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts Pacifico -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts Bree Serif -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navigation bar section -->
+    <section class="fnavbar">
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">BUPP</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li><a href="./" class="hvr-grow">Home</a></li>
+              <!-- modal windows will kick in -->
+              <li>
+                <a href="./about.html"  class="hvr-grow"
+                  >Our Team</a
+                >
+              </li>
+              <li><a href="./content1.html">Map</a></li>
+              <li><a href="https://login4406.netlify.app">Login</a></li>
+              <li>
+                <a href="#" class="hvr-grow" onclick="toggleModal();"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- responsiveness for mobile devices -->
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="./">Home</a></li>
+        <li><a href="#" onclick="toggleModal();">About Us</a></li>
+        <li><a href="./content1.html">Map</a></li>
+        <li><a href="https://login4406.netlify.app">Login</a></li>
+        <li><a href="#" onclick="toggleModal();">Contact</a></li>
+      </ul>
+    </section>
+
+    <!-- main slider section -->
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+          <!-- first header -->
+          <li>
+            <img src="images/db.jpg" />
+            <div class="caption center-align white-text">
+              <h1>BUPP - Coming Soon!</h1>
+            </div>
+          </li>
+          <!-- second header -->
+          <li>
+            <img src="images/town.jpg" />
+            <div class="caption center-align white-text">
+              <h3>Rural Life</h3>
+              <!-- <h5 class="light white-text text-lighten-3"><strong>town</strong></h5>   -->
+            </div>
+          </li>
+
+          <!-- third header -->
+          <li>
+            <img src="images/city.jpg" />
+            <div class="caption center-align white-text">
+              <h3>Urban Life</h3>
+              <!-- <h5 class="light white-text text-lighten-3"><strong>City</strong></h5>   -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- about us section -->
+    <section class="fabout">
+      <div class="section white center">
+        <div class="row container">
+          <h2 class="header" style="color: #fa5457">About Us</h2>
+
+          <h4 class="header">Problem</h4>
+          <p class="grey-text text-darken-3 lighten-3">
+            Mumbai, Delhi, Kolkata rank among the top 10 noisiest cities in the
+            world. And many more urban spaces in India have high noise levels,
+            often above the limits defined in Prevention and Control of
+            Pollution Act, 1981.
+          </p>
+
+          <h4 class="header">Health Effects</h4>
+          <p class="grey-text text-darken-3 lighten-3">
+            About 100 million people in India suffer from hearing loss. 85dB of
+            sound (heavy traffic) for more than 8 hours causes permanent hearing
+            loss as per World Health Organization (WHO). It also causes serious
+            health problems like hypertension, hearing loss, high blood
+            pressure, insomnia, behavioral and mental problems and cognitive
+            disabilities especially among children.
+          </p>
+
+          <h4 class="header">Our Solution Vision</h4>
+
+          <div class="col center l12 s12">
+            <p>
+              Our solution aims to provide holistic views of a noise event and
+              understand when sound becomes noise. We are crowdsourcing data on
+              noise events and citizens’ perception of them that will help us
+              gain deeper insights about noise in general and help in developing
+              better solutions. At the same time, we are delivering value by
+              providing a platform for civic engagement where citizens can help
+              the police to monitor and manage sound.
+            </p>
+
+            <p>
+              We hope to spark discussions among hyperlocal communities and help
+              the citizens understand noise in terms of metrics that they can
+              relate to.
+            </p>
+          </div>
+
+          <div class="col center l12 s12">
+            <!-- image carousel -->
+            <div class="carousel wireframes">
+              <a class="carousel-item" href="#one!"
+                ><img src="./images/wireframes/0.png"
+              /></a>
+              <a class="carousel-item" href="#two!"
+                ><img src="./images/wireframes/1.png"
+              /></a>
+              <a class="carousel-item" href="#three!"
+                ><img src="./images/wireframes/1.png"
+              /></a>
+              <a class="carousel-item" href="#four!"
+                ><img src="./images/wireframes/2.png"
+              /></a>
+              <a class="carousel-item" href="#five!"
+                ><img src="./images/wireframes/3.png"
+              /></a>
+              <a class="carousel-item" href="#six!"
+                ><img src="./images/wireframes/4.png"
+              /></a>
+              <a class="carousel-item" href="#seven!"
+                ><img src="./images/wireframes/5.png"
+              /></a>
+              <a class="carousel-item" href="#eight!"
+                ><img src="./images/wireframes/6.png"
+              /></a>
+              <a class="carousel-item" href="#nine!"
+                ><img src="./images/wireframes/7.png"
+              /></a>
+              <a class="carousel-item" href="#ten!"
+                ><img src="./images/wireframes/8.png"
+              /></a>
+              <a class="carousel-item" href="#eleven!"
+                ><img src="./images/wireframes/9.png"
+              /></a>
+              <a class="carousel-item" href="#twelve!"
+                ><img src="./images/wireframes/10.png"
+              /></a>
+              
+            </div>
+          </div>
+
+          <a
+            href="javascript::void(0)"
+            class="waves-effect waves-light btn"
+            style="background: #fa5457 !important"
+            >Coming Soon on</a
+          >
+        </div>
+
+        <!-- App Store batches -->
+        <div class="batches">
+          <img
+            src="./images/android@2x-722d1949a059933ec801fcb0fd8b9603.png"
+            alt="Google Batch"
+            style="
+              padding-bottom: 20px;
+              padding-block-start: 30px;
+              padding-right: 30px;
+              padding-top: 15px;
+            "
+            onclick="toggleModal();"
+          />
+
+          <img
+            src="./images/apple@2x-f7f50e93ba4eba7a1a889180d5cece0e.png"
+            alt="apple Batch"
+            style="padding-bottom: 20px"
+            onclick="toggleModal();"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- grid section -->
+    <section class="fdes">
+      <div class="section white center"></div>
+    </section>
+
+    <!-- footer section -->
+    <section class="ffooter">
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <!-- first column -->
+            <div class="col l6 s12">
+              <h4 class="white-text">Contact US</h4>
+              <p class="grey-text text-lighten-4">
+                Digital Impact Square, Ashoka Business Enclave, Plot No. 1, S.
+                No. 113 (P), Wadala Road, Near Indiranagar Jogging Track,
+                Nashik, Maharashtra 422003
+              </p>
+              <p class="grey-text text-lighten-4">Phone : +91 1236547890</p>
+              <p class="grey-text text-lighten-4">Email : contact@bupp.in</p>
+            </div>
+            <!-- second column -->
+            <div class="col l4 offset-l2 s12">
+              <h4 class="white-text">Connect with Us on Social Media</h4>
+              <ul>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    href="javascript::void(0)"
+                    onclick="toggleModal();"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    href="javascript::void(0)"
+                    onclick="toggleModal();"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    href="javascript::void(0)"
+                    onclick="toggleModal();"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3"
+                    href="javascript::void(0)"
+                    onclick="toggleModal();"
+                    >Whatsapp</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- copyright section -->
+        <div class="footer-copyright">
+          <div class="container">
+            © 2020 Copyright @ BUPP
+            <a class="grey-text text-lighten-4 right" href="#!"
+              >Made in India with
+              <span><i class="tiny material-icons">favorite</i></span> by Team
+              BUPP, Digital Impact Square, A TCS Foundation Initiative</a
+            >
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- modal section -->
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 id="info-modal-heading">Link Disabled</h4>
+          <p id="info-modal-content">
+            Sorry! The Link you're looking for is currently in development
+            phase. So wait for some time till it comes live!
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Close</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JS File -->
+    <script src="js/loaders.js"></script>
+  </body>
+</html>

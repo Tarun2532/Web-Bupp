@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BUPP!</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- <meta http-equiv="refresh" content="1"> -->
+
+	<!-- google icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- google fonts Pacifico -->
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+	<!-- google fonts Bree Serif -->
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+	<!-- Material CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+	
+</head>
+<body>
+
+	<!-- navigation bar section -->
+	<section class="fnavbar">
+		<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper">
+		      <a href="#" class="brand-logo">BUPP</a>
+		      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+				<li><a href="./" class="hvr-grow">Home</a></li>
+				<!-- modal windows will kick in -->
+				<li><a href="#" onclick="toggleModal();" class="hvr-grow">About Us</a></li>	
+				<li><a href="./content1.html" >Map</a></li>
+				<li><a href="https://login4406.netlify.app" >Login</a></li>
+		        <li><a href="#" class="hvr-grow" onclick="toggleModal();">Contact Us</a></li>
+		        
+		      </ul>
+		    </div>
+		  </nav>
+		</div>
+			<!-- responsiveness for mobile devices -->
+			<ul class="sidenav" id="mobile-demo">
+				<li><a href="./">Home</a></li>
+				<li><a href="#" onclick="toggleModal();">About Us</a></li>
+				<li><a href="./content1.html" >Map</a></li>
+				<li><a href="https://login4406.netlify.app" >Login</a></li>
+				<li><a href="#" onclick="toggleModal();">Contact</a></li>
+			  </ul>
+	</section>
+
+	<!-- Google Map -->
+	<div class="map-responsive">
+		<iframe src="https://www.google.com/maps/d/embed?mid=11CIJSwNOSRIGyqjyk-FK1wE4s-EE7Uwl" width="1540" height="680"></iframe>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- modal section -->
+	<section class="infomodal">
+		<div id="modal3" class="modal">
+		    <div class="modal-content">
+		      <h4 id="info-modal-heading">Link Disabled</h4>
+		      <p id="info-modal-content">Sorry! The Link you're looking for is currently in development phase. So wait for some time till it comes live!</p>
+		    </div>
+		    <div class="modal-footer">
+		      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+		    </div>
+		  </div>
+	  </section>
+
+	  <!-- jquery CDN -->
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+ 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<!-- JS File -->
+    <script src="js/loaders.js"></script>
+</body>
+</html>
