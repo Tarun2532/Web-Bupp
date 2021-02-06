@@ -10,9 +10,10 @@ h3 {
   background: #fa5457 !important;
 }
 
+
 /* navigation bar */
 .nav-wrapper {
-  background-color: #fa5457;
+  background-color: #000000;
 }
 
 .sidenav a {
@@ -50,10 +51,12 @@ h3 {
   height: 625px !important;
 }
 
+
+
 /* for footer */
 .page-footer {
   /* background: #6f4037 !important; */
-  background: #fa5457 !important;
+  background: #000000 !important;
 }
 
 /* for parallax */
@@ -90,3 +93,72 @@ hr {
     margin-top: 50px !important;
   }
 }
+
+
+
+#about {
+	padding: 150px 0px;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#about .service-item {
+	text-align: center;
+}
+
+#about .service-item .icon {
+	width: 115px;
+	height: 115px;
+	display: inline-block;
+	text-align: center;
+	line-height: 104px;
+	border: 3px solid #000000;
+	border-radius: #000000%;
+	
+}
+#about .service-item h4 {
+	margin-bottom: 30px;
+	margin-top: 45px;
+	font-size: 17px;
+	font-weight: 500;
+	color: 	#000000;
+	letter-spacing: 1px;
+}
+
+#about .service-item .line-dec {
+	width: 100%;
+	height: 1px;
+	background-color: rgb(241, 241, 241);
+}
+
+#about .service-item p {
+
+	margin-top: 30px;
+}
+
+#about .service-item .primary-blue-button {
+	margin-top: 35px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+  .map-container-6{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:90%;
+    width:90%;
+    position:absolute;
+    }
