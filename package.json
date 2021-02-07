@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tarun2532/Bupp-Web-Final.git"
+    "url": "git+https://github.com/Tarun2532/Web-Bupp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tarun2532/Bupp-Web-Final/issues"
+    "url": "https://github.com/Tarun2532/Web-Bupp/issues"
   },
-  "homepage": "https://github.com/Tarun2532/Bupp-Web-Final#readme"
+  "homepage": "https://github.com/Tarun2532/Web-Bupp#readme"
 }
